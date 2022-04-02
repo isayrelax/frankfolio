@@ -1,7 +1,7 @@
-html {
+body {
     background-image: linear-gradient(110deg, #c4f0ee, #69aca8);
     background-size: cover;
-    /* min-height: calc(100vh - 100px); */
+    min-height: calc(100vh - 100px);
     /* margin: 15% 15%; */
     /* background: white; */
     background-attachment: fixed;
