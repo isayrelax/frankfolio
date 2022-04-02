@@ -1,8 +1,8 @@
 body {
     background-image: linear-gradient(110deg, #c4f0ee, #69aca8);
-    background-size: cover;
-    min-height: calc(100vh - 100px);
-    margin: 15% 15%;
+    /* background-size: cover; */
+    /* min-height: calc(100vh - 100px); */
+    margin: 10% 10%;
     /* background: white; */
     background-attachment: fixed;
     letter-spacing: -1px;
@@ -35,7 +35,7 @@ body {
   /* font-family: 'Sacramento', cursive; */
   color: darkgrey;
   /* font-size: 4.5rem; */
-  font-size: 10vw;
+  font-size: 4.5rem;
   font-weight: 600;
 }
 
@@ -98,6 +98,14 @@ a {
 @media (max-width: 500px) {
     body {
       background-image: linear-gradient(110deg, #f0c4ec, #ac6998);
+    }
+
+    .intro {
+      font-size: 2.5rem;
+    }
+
+    .description {
+      line-height: 1.15;
     }
 
     .link {
