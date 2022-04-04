@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(110deg, #c4f0ee, #69aca8);
+    /* background: linear-gradient(110deg, #c4f0ee, #69aca8); */
+    background-color: #c4f0ee;
     /* background-size: cover; */
     min-height: calc(100vh - 100px);
     margin: 10% 10%;
@@ -97,7 +98,8 @@ a {
 
 @media (max-width: 500px) {
     body {
-      background-image: linear-gradient(110deg, #f0c4ec, #ac6998);
+      /* background-image: linear-gradient(110deg, #f0c4ec, #ac6998); */
+      background-color: #f0c4ec;
     }
 
     .intro {
