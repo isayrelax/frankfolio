@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(180deg, #c4f0ee, #69aca8);
     background-color: #c4f0ee;
+    min-height: calc(100vh - 20px);
     margin: 10% 10%;
     letter-spacing: -1px;
 }
